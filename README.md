@@ -1,37 +1,22 @@
-#LiterALura
+# Conversor de Monedas 🪙
 
-_ Resolucion del segundo challenge de Alura hecho por su servidor y con la ayuda de los cursos de alura _
+Este proyecto es un conversor de monedas que utiliza la API de [ExchangeRate API](https://www.exchangerate-api.com/) para obtener las tasas de cambio. Fue desarrollado como parte de una formación Backend y se encuentra alojado en el siguiente repositorio de GitHub: [ConversorDeMonedas](https://github.com/JesusSaid/ConversorDeMonedas).
 
-## Comenzando 🚀
+## Descripción
 
-_El objetivo de este challenge es el siguiente:  Desarrollar un Catálogo de Libros que ofrezca interacción textual (vía consola) con los usuarios, proporcionando al menos 5 opciones de interacción. Los libros se buscarán a través de una API específica._
+El conversor permite realizar conversiones entre las siguientes monedas:
 
-La API usada en este proyecto es [GUTENDEX](https://gutendex.com/)
+- Dólares (USD) a Pesos Mexicanos (MXN)
+- Pesos Mexicanos (MXN) a Dólares (USD)
+- Dólares (USD) a Real Brasileño (BRL)
+- Real Brasileño (BRL) a Dólares (USD)
+- Dólares (USD) a Peso Colombiano (COP)
+- Peso Colombiano (COP) a Dólares (USD)
 
+## Uso
 
-### Pasos para lograr el CHALLENGE 🔧
+Para utilizar el conversor debe ingresa la cantidad y selecciona las monedas de origen y destino en la interfaz del usuario. El sistema mostrará el resultado de la conversión basada en la tasa de cambio actual proporcionada por la API.
 
-*Configuración del Ambiente Java : Mediante spring initializr y el uso de intellij IDEA se empezo con la configuracion del proyecto.
-*Creación del Proyecto : la creacion del repo en github y las clases necesarias para el challenge 
-*Consumo de la API: Se uso la API GUTENDEX
-*Análisis de la Respuesta JSON: Mediante POSTMAN y pruebas se verifico que retornaba la consulta de la API
-*Inserción y consulta en la base de datos : Se uso una base relacional SQL , postgres y con la ayuda de pgAdmin se estuvo administrando
-*Exibición de resultados a los usuarios : Mediante impresion en consola con un menu se mostraron las opciones que el usuario puede acceder.
+## Autor
 
-
-## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Spring](https://start.spring.io/) - Spring 
-* [PostgreSQL](https://www.postgresql.org/download/) - PostgreSQL
-* [IntelliJ IDEA](https://www.jetbrains.com/es-es/idea/download/?section=windows)- IDE (Entorno de desenvolvimento integrado) IntelliJ IDEA
-
-## Autores ✒️
-
-* **Jesus Vazquez**  - [JesusSaid](https://github.com/JesusSaid)
-
-## Expresiones de Gratitud 🎁
-
-*Gracias a ALURA poe estos cursos, en verdad que me emciono realizar este Challenge :)
-
+Este proyecto fue realizado por [JesusSaid](https://github.com/JesusSaid/).
