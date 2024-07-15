@@ -29,7 +29,7 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 ## Autores ✒️
 
-* **Jesus Vazquez**  - [dani3lgaytan1](https://github.com/JesusSaid)
+* **Jesus Vazquez**  - [JesusSaid](https://github.com/JesusSaid)
 
 ## Expresiones de Gratitud 🎁
 
